@@ -11,5 +11,5 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Check missing.html
-        run: test -f missing.html
+      - name: Check index.html
+        run: test -f index.html
